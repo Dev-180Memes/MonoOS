@@ -1,0 +1,3 @@
+[workspace]
+members = ["crates/mono-capabilities","crates/mono-core", "crates/mono-inference", "crates/mono-ledger", "crates/mono-shell"]
+resolver = "2"

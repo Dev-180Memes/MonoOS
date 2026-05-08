@@ -1,0 +1,13 @@
+id= "com.mono.tools.search-documents"
+name = "Search documents"
+description = "Search through files in a directory for content matching a query. Use when the user asks to find, look for, or search across their files."
+
+[[inputs]]
+name = "query"
+kind = "text"
+required = true
+
+[[inputs]]
+name = "directory"
+kind = "path"
+required = false

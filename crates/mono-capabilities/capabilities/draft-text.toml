@@ -1,0 +1,8 @@
+id = "com.mono.tools.draft-text"
+name = "Draft text"
+description = "Draft a piece of text based on instructions. Use when the user asks to write, draft, compose, or create text content."
+
+[[inputs]]
+name = "instructions"
+kind = "text"
+required = true
