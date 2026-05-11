@@ -4,3 +4,10 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+mono-core = { path = "../mono-core" }
+sqlx = { version = "0.8.6", features = ["runtime-tokio", "sqlite", "chrono", "json"] }
+tokio = { version = "1", features = ["full"] }
+anyhow = "1"
+uuid = { version = "1", features = ["v4"] }
+chrono = { version = "0.4", features = ["serde"] }
+serde_json = "1"

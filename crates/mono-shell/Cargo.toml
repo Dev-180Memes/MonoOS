@@ -3,4 +3,17 @@ name = "mono-shell"
 version = "0.1.0"
 edition = "2024"
 
+[[bin]]
+name = "mono"
+path = "src/main.rs"
+
 [dependencies]
+mono-core = { path = "../mono-core" }
+mono-capabilities = { path = "../mono-capabilities" }
+mono-ledger = { path = "../mono-ledger" }
+mono-inference = { path = "../mono-inference" }
+tokio = { version = "1", features = ["full"] }
+anyhow = "1"
+uuid = { version = "1", features = ["v4"] }
+chrono = { version = "0.4" }
+shellexpand = "3"

@@ -1,0 +1,13 @@
+id = "com.mono.batch-rename"
+name = "Batch rename files"
+description = "Rename multiple files in a directory according to a pattern. Use when the user asks to rename files, organise files by name, or standardise file names."
+
+[[inputs]]
+name = "directory"
+kind = "path"
+required = true
+
+[[inputs]]
+name = "pattern"
+kind = "text"
+required = true

@@ -1,0 +1,5 @@
+id = "com.mono.tools.explain-last-action"
+name = "Explain last action"
+description = "Explain what the system did most recently in plain language. Use when the user asks what happened, what was done, or wants to understand the last action."
+
+[[inputs]]
